@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+
+#nav img {
+  height: 25px;
+}
+
+#nav-part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#nav-part1 h5 {
+  font-size: 15px;
+  color: rgb(45, 45, 45);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all ease 0.3s;
+}
+
+#nav-part1 h5:hover {
+  color: #6a6a6a;
+}
+
+#nav-part3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#nav-part2 {
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+#nav-part3 button {
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+#nav-part3 #btn1 {
+  background-color: transparent;
+}
+
+#nav-part3 #btn2 {
+  background-color: #f3f3f3;
+}
+
+#nav-part3 #btn2:hover {
+  background-color: #f0f0f0;
+}
+
+#nav-part3 #btn3 {
+  background-color: #000;
+  color: #fff;
+}
+
+#nav-part3 #btn3:hover {
+  background-color: #565564;
+}
+
+#center {
+  height: 75%;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+#center video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+
+#info {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#info h4 {
+  background-color: rgba(0, 0, 0, 0.493);
+  color: #fff;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+#info h4:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#info #first {
+  background-color: #fff;
+  color: black;
+}
+
+#overlay h1 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+#overlay p {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+#overlay input {
+  width: 40%;
+  margin-left: 30%;
+  padding: 18px 30px;
+  border: none;
+  margin-top: 45px;
+  border-radius: 100px;
+  outline: none;
+}
+
+#info2 {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#info2 h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all ease 0.3s;
+}
+
+#info2 h4 {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 6px 15px;
+  border: 1px solid #a9a9a9;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+#info2 h4:hover {
+  border-color: #fff;
+}
+
+#bottom {
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+}
+
+.elem {
+  background-color: red;
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 22px;
+  position: relative;
+}
+
+.elem img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#cover {
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.705));
+  position: absolute;
+  display: flex;
+  bottom: -30%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  transition: all ease 0.5s;
+}
+
+#cover h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+}
+
+#cover i {
+  color: grey;
+  background-color: white;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+.elem:hover #cover {
+  bottom: 0;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 2.5%;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+#footer h2 {
+  font-size: 18px;
+}
+
+#footer h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0;
+  color: #454545;
+  cursor: pointer;
+}
+
+#footer h3:hover {
+  color: #000;
+}
+
+#copyright {
+  width: 100%;
+  border-top: 3px solid rgba(209, 208, 208, 0.57);
+  position: relative;
+}
+
+#copyright h3 {
+  padding: 32px 0;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-weight: 300;
+}
